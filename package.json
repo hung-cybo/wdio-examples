@@ -1,0 +1,39 @@
+{
+  "name": "tech-blog-repo",
+  "version": "1.0.0",
+  "description": "Tech blog repo",
+  "scripts": {
+    "test": "wdio"
+  },
+  "keywords": [
+    "cybozu vietnam",
+    "wdio examples"
+  ],
+  "author": "Cybozu Vietnam - Automation Testing Team",
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "@babel/register": "^7.12.13",
+    "babel-register": "^6.26.0",
+    "@wdio/cli": "^7.14.0",
+    "@wdio/local-runner": "^7.13.2",
+    "@wdio/mocha-framework": "^7.13.2",
+    "@wdio/selenium-standalone-service": "^7.13.2",
+    "@wdio/spec-reporter": "^7.13.2",
+    "@wdio/sync": "^7.13.2",
+    "comma-separated-values": "^3.6.4",
+    "wdio-video-reporter": "^2.0.0"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  }
+}
